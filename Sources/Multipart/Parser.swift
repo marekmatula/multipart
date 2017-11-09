@@ -1,5 +1,5 @@
 import Core
-import HTTP
+//import HTTP
 import Foundation
 
 /// Parses preamble, Parts, and epilogue from a Multipart
