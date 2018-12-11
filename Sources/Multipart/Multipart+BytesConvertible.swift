@@ -1,4 +1,5 @@
 import Core
+import Bits
 
 extension Parser {
     /// @see parse(_ bytes: Bytes)

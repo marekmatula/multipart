@@ -1,4 +1,5 @@
 import Core
+import Bits
 
 /// Parses headers from the top of an HTTP-style message.
 ///

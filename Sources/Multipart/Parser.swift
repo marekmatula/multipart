@@ -1,6 +1,7 @@
 import Core
 //import HTTP
 import Foundation
+import Bits
 
 /// Parses preamble, Parts, and epilogue from a Multipart
 /// formatted sequence of bytes likely from an HTTP request or response.

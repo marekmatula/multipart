@@ -1,4 +1,5 @@
 import Core
+import Bits
 
 /// Attempts to parse a supplied boundary out of a stream of bytes.
 ///

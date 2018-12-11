@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Vapor' => 'contact@vapor.codes' }
   spec.summary      = 'mulptipart'
   spec.source       = { :git => "#{spec.homepage}.git", :tag => "#{spec.version}" }
-  spec.ios.deployment_target = "8.0"
+  spec.ios.deployment_target = "10.0"
   spec.osx.deployment_target = "10.10"
   spec.watchos.deployment_target = "2.0"
   spec.tvos.deployment_target = "9.0"
@@ -17,7 +17,10 @@ Pod::Spec.new do |spec|
   spec.subspec "Default" do |ss|
     ss.source_files = 'Sources/Multipart/*.swift'
     #ss.source_files = 'Sources/**/*.{swift}'
-    ss.dependency 'Core', '~> 2.0'
+#    ss.dependency 'Core', '~> 2.0'
+    ss.dependency 'VaporCore', '~> 3'
+#ss.dependency 'Core', '~> 2'
+
   end
 
   spec.subspec "libc" do |ss|
